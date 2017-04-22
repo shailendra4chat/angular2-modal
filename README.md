@@ -1,6 +1,6 @@
 # Angular 2 Modal
 
-Angular 3 modal component with interactive form.
+Angular 2 modal component with form.
 
 ```
 Modal component will appear once you click on the 'Open Contact Sideout' link.
