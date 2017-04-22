@@ -1,0 +1,20 @@
+
+<a href="#" (click)="showModal = !showModal">Open Contact Sideout</a>
+
+<app-modal [(visible)]="showModal">
+  
+      <div>
+        <label>Name</label><br />
+        <input [(ngModel)]="firstname" name="firstname" #name="ngModel" />
+      </div>
+      <div>
+        <label>Surname</label><br />
+        <input [(ngModel)]="surname" name="surname" #name="ngModel" />
+      </div>
+      <div>
+        <label>Message</label><br />
+        <textarea [(ngModel)]="message" name="message" #name="ngModel"></textarea>
+      </div>
+      
+
+</app-modal>
